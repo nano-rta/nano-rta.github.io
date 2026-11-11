@@ -1,0 +1,131 @@
+body {
+background-color: #f3eef5;
+color: #4a4440;
+font-family: Verdana, sans-serif;
+padding-bottom: 50px;
+}
+
+h1 {
+background-color: #d9a5b3;
+color: white;
+border-bottom: 3px solid #b8a9c9;
+}
+
+h3 {
+color: #6b4a5a;
+font-size: 18px;
+}
+
+.question-box {
+border-radius: 12px;
+padding: 18px;
+margin: 12px auto;
+max-width: 600px;
+}
+
+.pink {
+background-color: #fdf0f3;
+border: 1px solid #e8c5cf;
+}
+
+.lavender {
+background-color: #f2eef7;
+border: 1px solid #d3c5e0;
+}
+
+.green {
+background-color: #eef5ee;
+border: 1px solid #c5d8c2;
+}
+
+.peach {
+background-color: #fdf3ec;
+border: 1px solid #e8cdb8;
+}
+
+input[type="text"], input[type="number"], select {
+border: 1px solid #b8a9c9;
+border-radius: 8px;
+padding: 8px;
+background-color: white;
+color: #4a4440;
+text-align: center;
+}
+
+label {
+color: #6b5a6b;
+margin: 5px;
+}
+
+.btn-outline-primary {
+background-color: #d9a5b3;
+border: 1px solid #d9a5b3;
+color: white;
+border-radius: 20px;
+padding: 10px 28px;
+font-size: 16px;
+}
+
+.feedback-good {
+background-color: #dcead9;
+color: #4a6b4f;
+border-radius: 8px;
+padding: 8px;
+margin-top: 10px;
+}
+
+.feedback-bad {
+background-color: #fbe9ec;
+color: #96606a;
+border-radius: 8px;
+padding: 8px;
+margin-top: 10px;
+}
+
+#validationFdbk {
+background-color: #fbe9ec;
+color: #96606a;
+border-radius: 8px;
+padding: 8px;
+max-width: 600px;
+margin: 12px auto;
+}
+
+#validationFdbk:empty, #congratsMsg:empty, #totalScore:empty {
+display: none;
+}
+
+#congratsMsg {
+color: #6b4a7a;
+max-width: 600px;
+margin: 12px auto;
+}
+
+#totalAttempts {
+color: #8a7a9b;
+font-size: 16px;
+}
+
+.footer {
+font-size: 11px;
+color: #8a7a9b;
+opacity: 0.55;
+margin-top: 10px;
+padding: 10px 10px 50px;
+}
+
+.footer p {
+margin: 2px;
+}
+
+.copyright {
+font-size: 9px;
+opacity: 0.6;
+}
+
+.footer-logo {
+width: 150px;
+height: auto;
+margin: 5px 0 30px;
+opacity: 0.55;
+}
