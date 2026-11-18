@@ -1,0 +1,78 @@
+body {
+  background-color: #f3eef5;
+  font-family: Verdana;
+  color: #4a4440;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #d9a5b3;
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 5px;
+}
+
+#searchBox {
+  background-color: white;
+  border: 2px solid #b8a9c9;
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #4a4440;
+}
+
+input {
+  border: 1px solid #b8a9c9;
+  padding: 5px;
+  margin-top: 5px;
+  width: 200px;
+}
+
+button {
+  background-color: #d9a5b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#validationFdbk {
+  color: #96606a;
+}
+
+#validationFdbk:empty {
+  display: none;
+}
+
+#results {
+  width: 600px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.quake {
+  background-color: white;
+  border: 1px solid #c5d8c2;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.quake h3 {
+  color: #96606a;
+  margin: 0;
+}
+
+.quake p {
+  margin: 5px 0;
+}
